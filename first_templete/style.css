@@ -1,0 +1,268 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Pathway+Extreme:ital,wght@0,100;0,300;1,200;1,300&family=Teko:wght@300;400;700&family=Tilt+Prism&display=swap');
+
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    margin: 0 ;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    
+}
+
+.container{
+    background-color: rgba(156, 239, 241, 0.568);
+    backdrop-filter: blur(3px);
+    width: 100%;
+    height: 60px;
+    border: 1px solid rgb(152, 215, 226);
+    display: flex;
+    justify-content: space-between;
+    
+}
+.karol{
+    font-size: 40px;
+    align-items: center;
+    margin-left: 40px;
+    font-family: 'Dancing Script', cursive;
+
+
+    color: rgb(74, 81, 141);
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+.menu{
+    
+    display: flex;
+    align-items: center;
+}
+
+nav ul, li{
+    list-style: none;
+}
+
+nav ul{
+    display: flex;
+}
+nav a{
+    text-decoration: none;
+    padding: 15px;
+    font-size: 14px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+}
+ 
+nav a:hover{        
+    background-color: rgba(67, 170, 255, 0.555);
+    color: white;
+    transition: linear 0.4s;
+
+}
+.banner{
+    display: flex;
+    background-image: url(/PROJETOS/first_templete/imagens/Hospital-wallpaper_944x944.jpg);
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 680px;
+}
+
+.meio{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    
+}
+.coluna1{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.coluna1 h1{
+    color: aliceblue;
+    font-size: 45px;
+    text-shadow: 0px 1px 0px black;
+    width: 300px;
+}
+.coluna1 h2{
+    color: aliceblue;
+    font-size: 18px;
+    width: 400px;
+    margin-top: 30px;
+    max-width: 400px;
+
+}
+.coluna2{
+    height: 210px;
+    display: flex;
+    
+}
+
+.bloco1, .bloco2, .bloco3{
+    flex: 1;
+    padding: 15px;
+    color: aliceblue;
+    border-radius: 10px;
+    
+}
+.bloco1{
+    background-color: rgba(102, 185, 206, 0.582);
+}
+.bloco2{
+    background-color: rgba(54, 139, 160, 0.582);
+}
+.bloco3{
+    background-color: rgba(102, 185, 206, 0.582);
+}
+
+.bloco1 h2, .bloco2 h2{
+    color: aliceblue;
+    margin: 8px 0 15px 0;
+    font-size: 12px;
+}
+
+.bloco3 h2{
+    text-align: center;
+    color: aliceblue;
+    margin-top: 8px;
+    font-size: 12px;
+
+}
+ .coluna2 a{
+    border: 1px solid white;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 5px;
+    color: white;
+    background-color: rgb(90, 188, 206);
+    border-radius: 5px
+
+ }
+
+.meio2{
+    display: flex;
+    border: 2px solid black;
+    justify-content: center;
+    height: 900px;
+    
+}
+.traco{
+    width: 50px;
+    height: 2px;
+    background-color: rgb(26, 202, 202);
+    margin-bottom: 10px;
+}
+
+.container2{
+    display: flex;
+    width: 80%;
+    
+}
+.coluna-baixo1{
+    justify-content: center;
+    flex: 2;
+    height: 500px;
+}
+
+.quadro-total{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+article{
+    flex: 1;
+    min-width: 300px;
+    margin: 8px;
+}
+article img{
+    width: 200px;
+}
+.title{
+    margin-top: 10px;
+}
+article h3{
+    margin-top: 15px;
+}
+
+article p{
+    margin-right: 50px;
+    margin-bottom: 15px;
+}
+
+article a{
+    border: 1px solid white;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 5px;
+    color: white;
+    background-color: rgb(90, 188, 206);
+    border-radius: 5px
+}
+
+.coluna-baixo2{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.quadro-total2{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.quadro-total2 > .box{
+    min-width: 100px;
+    margin: 10px;   
+    height: 100px;
+    background-color: rgb(32, 197, 197);
+}
+.quadro-total2 > .box:hover{
+    background-color: rgb(0, 255, 200);
+}
+
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    height: 200px;
+    background-color: rgb(59, 59, 59);
+    color: white;
+    align-items: center;
+}
+
+.cabeca{ 
+    flex-direction: column;
+    display: flex;
+}
+.cabeca a{
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+}
+.cabeca a:hover{
+    color: rgb(29, 175, 175);
+}
